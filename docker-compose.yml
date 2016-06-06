@@ -1,0 +1,11 @@
+core-app:
+  build: ./dotnet
+
+nginx:
+  build: ./nginx
+  container_name: core-app.local
+  ports:
+    - "80:80"
+    - "443:443"
+  links:
+    - core-app

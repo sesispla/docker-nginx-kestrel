@@ -1,4 +1,4 @@
-#H1 ASP.NET Core HTTPS & Load balancing
+#h1 ASP.NET Core HTTPS & Load balancing
 Deploy an ASP.NET Core application with HTTPS & Load balancing using Docker and NGINX as reverse proxy.
 
 To get started:

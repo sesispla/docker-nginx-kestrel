@@ -3,10 +3,10 @@ Deploy an ASP.NET Core application with HTTPS & Load balancing using Docker and 
 
 To get started:
 
-```
+```bash
     docker-compose build
-    docker-compose up
     docker-compose scale core-app=4
+    docker-compose up
 ```
 
 IMPORTANT: Due to NGINX (Free version) limiations, current configuration is set to work with a fixed scale of 4 nodes.
